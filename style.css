@@ -1,0 +1,307 @@
+.row
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header
+{
+    background-image: url("img/fullscreen1.jpg");
+    background-repeat: no-repeat;
+    color:white;
+    height:100%;    
+    width: 100%;   
+    opacity: 1;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;     
+    
+}
+.ul-main
+{
+   
+     border: 1px solid rgb(3,75,99);
+     padding: 20px;
+     padding-right:100px;
+      padding-left:100px;
+      margin-bottom: 50px;
+}
+.ul-main li
+{
+    display: inline;
+    list-style: none;
+    padding: 22px;
+    
+   border: 1px solid rgb(3,75,99);
+   border-bottom: none;
+   border-top: none;
+   margin-left: -5px;
+   
+      
+}
+#shareList
+{
+    padding-right: 0;
+}
+#shareList li
+{
+    border: none;
+}
+
+.navbar-inverse {
+    background:none;
+    border:none;
+}
+#nav-header-main
+{
+   /* margin:50px;*/
+}
+@media (max-width: 767px)
+{
+.container {padding-right: 55px;padding-left: 55px;}
+}
+
+@media (min-width: 768px)
+{
+.container {width: inherit !important;}
+}
+@media (max-width: 792px) and (min-width: 768px)
+{
+.container {font-size:12px;}
+}
+
+#ul-body
+{
+    float:left;
+}
+
+#ul-body li a
+{
+    color: white;
+}
+#ul-body li a:hover
+{
+    color: rgb(255,195,41);
+    text-decoration: none;    
+}
+
+#ul-body li a:active
+{
+    color: white;
+    text-decoration: none;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background:none;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background:none;
+}
+#background-body-first
+{
+    background-image: url("img/1400x200demo21.jpg") ;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+#background-body-first button , #body-fourth button
+{
+    background-color: black;
+    
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    color: white; 
+    float :left;
+    margin: 50px;
+       
+}
+#background-body-first span
+{
+    color :white;
+    float:right;
+    margin:50px;
+    
+    
+}
+article.col-md-4{
+    
+}
+.articles
+{
+    width: 90%;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.articles article div
+{
+    padding: 20px;
+}
+.articles article img
+{
+    width: 100%;
+}
+
+#body-second
+{
+    background-color: rgb(38,38,38);
+    color: white;
+    padding:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#body-second
+{
+    
+}
+#body-third 
+{
+    margin-top:20px ;
+    margin-bottom: 75px;
+}
+#body-third div table tr td
+{
+    padding :15px;
+    
+}
+#body-third div table
+{
+    
+}
+#body-third div table tr 
+{
+    border: 1px solid rgb(236,236,236);
+    border-right: none;
+    
+}
+.currentTr
+{
+    border-right: 10px solid black !important;
+}
+
+.body-third-pa ul {
+     list-style-type: square;
+     
+    
+}
+
+#body-fourth
+{
+    background-image: url("img/fourth-back.jpg");
+     margin-top:20px ;
+    margin-bottom: 20px;
+    height: 317px;
+    /*background-position: 50% -150px;*/
+    color: white;
+}
+
+#body-fourth
+{
+    text-align: center;
+   
+}
+#body-fourth button
+{
+    background-color: black;
+    
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    color: white; 
+    float :none;
+    margin: 50px;
+       
+}
+#body-fifth
+{
+    text-align: center;
+    
+}
+
+#div-first
+{
+   margin-bottom: 50px;
+}
+#div-first h4{
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+     border-bottom: 1px solid rgb(229,229,229);
+     padding-bottom: 20px;
+}
+#div-second{
+    margin: 20px 250px;
+    padding: 25px 10px;
+    border-bottom: 1px solid rgb(229,229,229);
+    border-top: 1px solid rgb(229,229,229);
+}
+#body-fifth p
+{
+    font-size: large;
+    color: rgb(209,217,229);
+    
+}
+#body-fifth
+{
+    margin-bottom: 70px;
+}
+#body-sixth
+{
+    background-color: rgb(36,36,36);
+    color:#D2CCCC;
+    overflow: hidden;
+     line-height: 20px;
+     
+   
+}
+#body-sixth article button
+{
+    background-color: rgb(41,41,41);
+    border: none;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#body-sixth article h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 60px;
+    
+}
+
+#body-sixth article ul
+{
+   list-style: none;
+   padding-right: 5px;
+   float:right;
+   padding-left: 50px;
+   cursor: pointer;
+    line-height: 30px;
+}
+.currentListItem
+{
+     color: rgb(255,195,41) !important;
+}
+#body-sixth article ul li a
+{
+    text-decoration: none;
+    color: #D2CCCC;
+    cursor: pointer;
+}
+
+#body-sixth article ul li a:hover
+{
+    text-decoration: none;
+    color: rgb(255,195,41);
+    
+}
+footer{
+    padding:30px;
+    text-align: center;
+    background-color: black;
+    color: #D2CCCC;
+}
